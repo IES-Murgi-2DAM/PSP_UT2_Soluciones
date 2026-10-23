@@ -6,7 +6,7 @@
 `Ej1.py` lanza de forma síncrona el comando `ls -lrtha ..` con `subprocess.run`, capturando la salida estándar y la de error como texto para comprobar cómo se ejecuta un proceso externo y se recoge su resultado.
 
 ### Ejercicio 2
-`Ej2.py` ejecuta `hostname` con `subprocess.run` y muestra el código de salida y el nombre de la máquina obtenido de la salida estándar.
+`Ej3.py` ejecuta `hostname` con `subprocess.run` y muestra el código de salida y el nombre de la máquina obtenido de la salida estándar.
 
 ### Ejercicio 3
 `Ej3.py` lanza la calculadora de GNOME de forma asíncrona con `subprocess.Popen`, muestra su PID, espera 2 segundos y la cierra con `terminate()`, que envía la señal `SIGTERM`.
